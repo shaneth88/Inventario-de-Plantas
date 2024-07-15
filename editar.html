@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Detalle Planta</title>
+<style>
+        /* Estilos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0b0b0b;
+    margin: 0;
+    padding: 20px;
+    font-family: 'calibri'
+    }
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #0a0a0a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'calibri'
+    }
+    .plant-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    }
+    .plant-header h1 {
+    margin: 0;
+    }
+    .plant-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 50px;
+    }
+    .plant-info img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    }
+    .entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #090909;
+    border-radius: 4px;
+    background-color: #090909;
+    }
+    .entry h3 {
+    margin-top: 0;
+    }
+    .entry label {
+    font-weight: bold;
+    }
+    .button-container {
+    margin-top: 10px;
+    text-align: right;
+    }
+    .button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    }
+    .eliminar-button {
+    background-color: #689f38;
+    color: #ffffff;
+    }
+    .eliminar-button:hover {
+    background-color: #689f38;
+    }
+    .titulo-container {
+    text-align: center; /* Alineación centrada del texto */
+    margin-top: 50px; /* Espacio superior opcional */
+    }
+</style>
+</head>
+    <body>
+        <div class="container">
+        <div class="plant-header">
+        </div>
+            <h1>Detalle de la Planta</h1>
+            <div class="plant-info"> 
+            <img src="imagen/prueba.png" alt="Imagen de la planta">
+        <form>
+                <p>
+                    <label for="Nombre">Nombre de la planta:</label>
+                    <input type="text" id="Nombre" value="Nombre de la planta" name="Nombre"><br>
+                </p>
+                <p>
+                    <label for="Especie">Especie de la planta:</label>
+                    <input type="text" id="Especie" value="Especie de la planta" name="Especie"><br>
+                </p>
+                <p>
+                    <label for="Descripción">Descripción detallada de la planta:</label>
+                    <input type="text" id="Descripción" value="Descripción detallada de la planta" name="Descripción"><br>
+                </p>
+                <p>
+                    <label for="Fecha de adquisición">Descripción detallada de la planta:</label>
+                    <input type="datetime" id="Fecha de adquisición" value="Descripción detallada de la planta" name="Fecha de adquisición"><br>
+                </p>
+                <p>
+                    <label for="Estado de salud">Estado de salud actual de la planta:</label>
+                    <select name="Estado de salud" id="Estado de salud">
+                        <option value="bueno"> Bueno</option>
+                        <option value="regular"> Regular</option>
+                        <option value="malo"> Malo</option>
+                    </select><br>  
+                </p>
+                <p>
+                    <label for="Ubicación">Ubicación actual de la planta:</label>
+                    <input type="text" id="Ubicación" value="Ubicación actual de la planta" name="Ubicación"><br>
+                </p>
+                <p>
+                    <label for="Riego">Frecuencia de riego de la planta:</label>
+                    <input type="text" id="Riego" value="Frecuencia de riego de la planta" name="Riego"><br>
+                </p>
+                <p>
+                    <label for="Luz">Cantidad de luz que recibe la planta:</label>
+                    <select name="Luz" id="Luz">
+                        <option value="sombra"> Sombra</option>
+                        <option value="semisombra"> Semisombra</option>
+                        <option value="soldirecto"> Sol directo</option>
+                    </select><br>  
+                </p>
+                <p>
+                    <label for="Fertilización">Detalles sobre la fertilización de la planta:</label>
+                    <input type="text" id="Fertilización" value="Frecuencia de riego de la planta" name="Fertilización"><br>
+                </p>
+                <p>
+                    <label for="Última poda">Fecha de la última poda de la planta:</label>
+                    <input type="datetime" id="Última poda" value="Fecha de la última poda de la planta" name="Última poda">
+                </p><br>
+                <p>
+                    <label for="Observaciones adicionales">Otras observaciones adicionales sobre la planta:</label>
+                    <textarea type="text" id="Observaciones adicionales" value="Otras observaciones adicionales sobre la planta" 
+                    name="Observaciones adicionales" rows="4" cols="50">
+                    </textarea>
+                </p>
+        </form>
+        </div>
+            <div>
+                <button class="button eliminar-button" onclick="Guardar()">Guardar</button>  
+            </div>
+    </body>
+    </html>
+    

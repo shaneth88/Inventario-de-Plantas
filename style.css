@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecera{
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    text-align: right;
+}
+
+body {
+    font-family: 'ionicons';
+    background-image: url(imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.textoblanco{
+    color:rgb(255, 255, 255)
+}
+.textoblanco a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    color: rgb(35, 148, 77);
+}
+.textoazul{
+    color:rgb(21, 105, 27)
+}
+.contenedorLogin{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'calibri';
+    
+}
+.formulariologin{
+    width: 400px;
+    background: #0a0a0a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 60px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+} 
+.control{
+    width: 100%;
+    background-color: rgb(195, 206, 197);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #8da6a0;
+    font-size: 18px;
+    color: grey;
+} 
+.button{
+    width: 100%;
+    background: #0b461a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.Registrate{
+    color:#000;
+}
+header{
+    background-color: rgb(8, 8, 8);
+}
+.navbar{
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    padding:4px;
+    text-align: right !important;
+}
+.navbar p{
+    margin-right: 4px;
+    width: 100%;
+}
+.imagenlogin{
+    display: block;
+    margin: 40px;
+}

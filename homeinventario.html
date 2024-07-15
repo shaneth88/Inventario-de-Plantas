@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Inventario</title>
+    <link rel="shortcut icon" href="imagen/iconopestaña.png">
+    <style>
+        /* Estilos opcionales para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #0c0b0b;
+        }
+        .button-container {
+            margin-top: 10px;
+            text-align: right;
+        }
+        .button {
+            padding: 8px 12px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .detalle-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .detalle-button:hover {
+            background-color: #45a049;
+        }
+        .agregar-button {
+            background-color: #45a049;
+            color: white;
+        }
+        .agregar-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    </head>
+    <body>  
+    <h2>Inventario de Plantas</h2>  
+    <table id="tabla-plantas">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Especie</th>
+                <th>Descripción</th>
+                <th>Fecha de adquisición</th>
+                <th>Estado de salud</th>
+                <th>Ubicación</th>
+                <th>Riego</th>
+                <th>Luz</th>
+                <th>Fertilización</th>
+                <th>Última poda</th>
+                <th>Observaciones adicionales</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Ejemplo de una fila de datos de planta -->
+            <tr>
+                <td>Nombre de la planta</td>
+                <td>Especie de la planta</td>
+                <td>Descripción detallada de la planta</td>
+                <td>Fecha de adquisición de la planta</td>
+                <td>Estado de salud actual de la planta</td>
+                <td>Ubicación actual de la planta</td>
+                <td>Frecuencia de riego de la planta</td>
+                <td>Cantidad de luz que recibe la planta</td>
+                <td>Detalles sobre la fertilización de la planta</td>
+                <td>Fecha de la última poda de la planta</td>
+                <td>Otras observaciones adicionales sobre la planta</td>
+                <td>
+                    <button class="button detalle-button" onclick="verDetallePlanta()">Ver Detalle</button>
+                </td>
+            </tr>
+            <!-- Puedes agregar más filas según sea necesario -->
+        </tbody>
+    </table>
+    <div class="button-container">
+        <button class="button agregar-button" onclick="agregarPlanta()">Agregar Registro</button>
+    </div>
+    <script>
+        function agregarPlanta() {
+            // Aquí puedes añadir la lógica para redirigir o abrir la página de agregar registro
+            alert('Función para agregar planta aún no implementada.');
+        }
+        function verDetallePlanta() {
+            // Aquí puedes añadir la lógica para redirigir o abrir la página de detalle de planta
+            alert('Función para ver detalle de planta aún no implementada.');
+        }
+    </script>  
+    </body>
+    </html>

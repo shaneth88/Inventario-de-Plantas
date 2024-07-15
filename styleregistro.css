@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ionicons';
+    background-image: url(imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.Volver {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.imagenlogin{
+    width: 90px;
+    height: 90px;
+}
+.Volver a{
+    text-align: right;
+    color: white;
+}
+.form-registro{
+    width: 400px;
+    background: #080808;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 60px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-registro h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    background-color: rgb(195, 206, 197);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #8da6a0;
+    font-size: 18px;
+}
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .button{
+    width: 100%;
+    background: #0b461a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+  .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
